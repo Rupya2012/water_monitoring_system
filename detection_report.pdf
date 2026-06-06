@@ -1,0 +1,518 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R 12 0 R] /Count 5 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+4 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 5 0 R >>
+endobj
+5 0 obj
+<< /Length 2525 >>
+stream
+BT
+/F1 10 Tf
+48 746 Td
+(Water Contamination Detection Report) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Files) Tj
+0 -14 Td
+(Baseline clean-water CSV: baseline_clean.csv) Tj
+0 -14 Td
+(Input sensor CSV: input_sensor_data.csv) Tj
+0 -14 Td
+(Result CSV: detection_results.csv) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Input Columns) Tj
+0 -14 Td
+(timestamp: time of the sensor reading) Tj
+0 -14 Td
+(turbidity: cloudiness of water; sudden rise can indicate particles or microbes) Tj
+0 -14 Td
+(orp: oxidation-reduction potential; sudden change can indicate chemical/biological activity) Tj
+0 -14 Td
+(ph: acidity/alkalinity of water) Tj
+0 -14 Td
+(conductivity: dissolved-ion level; sudden rise can indicate dissolved contaminants) Tj
+0 -14 Td
+(temperature, label, notes: optional columns preserved if present) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Clean-Water Calibration) Tj
+0 -14 Td
+(turbidity: mean=0.447633, std_dev=0.039742) Tj
+0 -14 Td
+(orp: mean=656.413300, std_dev=7.088657) Tj
+0 -14 Td
+(ph: mean=7.258867, std_dev=0.043753) Tj
+0 -14 Td
+(conductivity: mean=408.650583, std_dev=8.893090) Tj
+0 -14 Td
+(VDA learned warning threshold: 2.821727) Tj
+0 -14 Td
+(PAA warning threshold: area_ratio > 1.000000) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Summary) Tj
+0 -14 Td
+(Rows analyzed: 120) Tj
+0 -14 Td
+(Rows with ALERT: 30) Tj
+0 -14 Td
+(Rows with NO_ALERT: 90) Tj
+0 -14 Td
+(VDA alerts: 30) Tj
+0 -14 Td
+(PAA alerts: 30) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(How To Read One Warning) Tj
+0 -14 Td
+(ALERT means at least one algorithm found the row unusual compared with clean water.) Tj
+0 -14 Td
+(VDA warning: combined normalized distance is above the learned threshold.) Tj
+0 -14 Td
+(PAA warning: radar/polygon area ratio is above 1.) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Alert Rows \(showing up to 50\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 41 at 2026-01-01T09:13:20: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.578, orp=622.065, ph=7.159, conductivity=478.353) Tj
+0 -14 Td
+(Normalized: turbidity=28.442, orp=4.846, ph=2.282, conductivity=7.838) Tj
+0 -14 Td
+(Decision: VDA distance=28.817 \(threshold=2.822, alarm=True\); PAA area ratio=97.423) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 42 at 2026-01-01T09:13:25: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.599, orp=624.713, ph=7.211, conductivity=454.840) Tj
+0 -14 Td
+(Normalized: turbidity=28.971, orp=4.472, ph=1.094, conductivity=5.194) Tj
+0 -14 Td
+(Decision: VDA distance=28.715 \(threshold=2.822, alarm=True\); PAA area ratio=72.650) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 3203 >>
+stream
+BT
+/F1 10 Tf
+48 746 Td
+(Row 43 at 2026-01-01T09:13:30: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.382, orp=622.298, ph=7.145, conductivity=484.964) Tj
+0 -14 Td
+(Normalized: turbidity=23.511, orp=4.813, ph=2.602, conductivity=8.581) Tj
+0 -14 Td
+(Decision: VDA distance=24.378 \(threshold=2.822, alarm=True\); PAA area ratio=87.438) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 44 at 2026-01-01T09:13:35: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.472, orp=624.083, ph=7.149, conductivity=505.649) Tj
+0 -14 Td
+(Normalized: turbidity=25.775, orp=4.561, ph=2.511, conductivity=10.907) Tj
+0 -14 Td
+(Decision: VDA distance=27.229 \(threshold=2.822, alarm=True\); PAA area ratio=109.383) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 45 at 2026-01-01T09:13:40: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.549, orp=612.846, ph=7.165, conductivity=506.333) Tj
+0 -14 Td
+(Normalized: turbidity=27.713, orp=6.146, ph=2.145, conductivity=10.984) Tj
+0 -14 Td
+(Decision: VDA distance=29.270 \(threshold=2.822, alarm=True\); PAA area ratio=127.868) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 46 at 2026-01-01T09:13:45: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.359, orp=623.741, ph=7.209, conductivity=470.092) Tj
+0 -14 Td
+(Normalized: turbidity=22.932, orp=4.609, ph=1.140, conductivity=6.909) Tj
+0 -14 Td
+(Decision: VDA distance=23.244 \(threshold=2.822, alarm=True\); PAA area ratio=69.314) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 47 at 2026-01-01T09:13:50: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.260, orp=616.875, ph=7.178, conductivity=485.816) Tj
+0 -14 Td
+(Normalized: turbidity=20.441, orp=5.578, ph=1.848, conductivity=8.677) Tj
+0 -14 Td
+(Decision: VDA distance=21.692 \(threshold=2.822, alarm=True\); PAA area ratio=79.431) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 48 at 2026-01-01T09:13:55: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.494, orp=615.244, ph=7.203, conductivity=477.558) Tj
+0 -14 Td
+(Normalized: turbidity=26.329, orp=5.808, ph=1.277, conductivity=7.748) Tj
+0 -14 Td
+(Decision: VDA distance=26.900 \(threshold=2.822, alarm=True\); PAA area ratio=93.556) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 49 at 2026-01-01T09:14:00: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.425, orp=615.552, ph=7.148, conductivity=479.606) Tj
+0 -14 Td
+(Normalized: turbidity=24.592, orp=5.764, ph=2.534, conductivity=7.979) Tj
+0 -14 Td
+(Decision: VDA distance=25.374 \(threshold=2.822, alarm=True\); PAA area ratio=93.200) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 50 at 2026-01-01T09:14:05: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.273, orp=608.713, ph=7.160, conductivity=449.504) Tj
+0 -14 Td
+(Normalized: turbidity=20.768, orp=6.729, ph=2.260, conductivity=4.594) Tj
+0 -14 Td
+(Decision: VDA distance=21.195 \(threshold=2.822, alarm=True\); PAA area ratio=65.185) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 51 at 2026-01-01T09:14:10: ALERT \(VDA+PAA\)) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 3223 >>
+stream
+BT
+/F1 10 Tf
+48 746 Td
+(Values: turbidity=1.348, orp=594.912, ph=7.126, conductivity=477.958) Tj
+0 -14 Td
+(Normalized: turbidity=22.655, orp=8.676, ph=3.037, conductivity=7.793) Tj
+0 -14 Td
+(Decision: VDA distance=24.339 \(threshold=2.822, alarm=True\); PAA area ratio=105.782) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 52 at 2026-01-01T09:14:15: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.468, orp=614.455, ph=7.148, conductivity=450.164) Tj
+0 -14 Td
+(Normalized: turbidity=25.674, orp=5.919, ph=2.534, conductivity=4.668) Tj
+0 -14 Td
+(Decision: VDA distance=25.717 \(threshold=2.822, alarm=True\); PAA area ratio=74.661) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 53 at 2026-01-01T09:14:20: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.619, orp=620.160, ph=7.215, conductivity=457.647) Tj
+0 -14 Td
+(Normalized: turbidity=29.474, orp=5.114, ph=1.003, conductivity=5.509) Tj
+0 -14 Td
+(Decision: VDA distance=29.344 \(threshold=2.822, alarm=True\); PAA area ratio=80.944) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 54 at 2026-01-01T09:14:25: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.378, orp=596.805, ph=7.199, conductivity=483.092) Tj
+0 -14 Td
+(Normalized: turbidity=23.410, orp=8.409, ph=1.368, conductivity=8.371) Tj
+0 -14 Td
+(Decision: VDA distance=25.008 \(threshold=2.822, alarm=True\); PAA area ratio=103.942) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 55 at 2026-01-01T09:14:30: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=1.172, orp=614.479, ph=7.192, conductivity=445.331) Tj
+0 -14 Td
+(Normalized: turbidity=18.227, orp=5.916, ph=1.528, conductivity=4.125) Tj
+0 -14 Td
+(Decision: VDA distance=18.449 \(threshold=2.822, alarm=True\); PAA area ratio=49.586) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 81 at 2026-01-01T09:16:40: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.696, orp=596.361, ph=7.048, conductivity=546.213) Tj
+0 -14 Td
+(Normalized: turbidity=6.249, orp=8.472, ph=4.819, conductivity=15.468) Tj
+0 -14 Td
+(Decision: VDA distance=17.892 \(threshold=2.822, alarm=True\); PAA area ratio=66.247) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 82 at 2026-01-01T09:16:45: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.872, orp=600.843, ph=7.024, conductivity=585.672) Tj
+0 -14 Td
+(Normalized: turbidity=10.678, orp=7.839, ph=5.368, conductivity=19.906) Tj
+0 -14 Td
+(Decision: VDA distance=23.086 \(threshold=2.822, alarm=True\); PAA area ratio=111.298) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 83 at 2026-01-01T09:16:50: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.750, orp=596.004, ph=7.018, conductivity=539.107) Tj
+0 -14 Td
+(Normalized: turbidity=7.608, orp=8.522, ph=5.505, conductivity=14.669) Tj
+0 -14 Td
+(Decision: VDA distance=17.907 \(threshold=2.822, alarm=True\); PAA area ratio=76.029) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 84 at 2026-01-01T09:16:55: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.610, orp=610.013, ph=7.118, conductivity=515.694) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 11 0 R >>
+endobj
+11 0 obj
+<< /Length 3226 >>
+stream
+BT
+/F1 10 Tf
+48 746 Td
+(Normalized: turbidity=4.085, orp=6.546, ph=3.220, conductivity=12.037) Tj
+0 -14 Td
+(Decision: VDA distance=13.271 \(threshold=2.822, alarm=True\); PAA area ratio=33.936) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 85 at 2026-01-01T09:17:00: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.630, orp=562.305, ph=7.109, conductivity=530.809) Tj
+0 -14 Td
+(Normalized: turbidity=4.589, orp=13.276, ph=3.425, conductivity=13.736) Tj
+0 -14 Td
+(Decision: VDA distance=18.564 \(threshold=2.822, alarm=True\); PAA area ratio=54.119) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 86 at 2026-01-01T09:17:05: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.745, orp=580.621, ph=7.044, conductivity=518.236) Tj
+0 -14 Td
+(Normalized: turbidity=7.482, orp=10.692, ph=4.911, conductivity=12.323) Tj
+0 -14 Td
+(Decision: VDA distance=17.099 \(threshold=2.822, alarm=True\); PAA area ratio=71.306) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 87 at 2026-01-01T09:17:10: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.752, orp=564.868, ph=7.046, conductivity=546.175) Tj
+0 -14 Td
+(Normalized: turbidity=7.658, orp=12.914, ph=4.865, conductivity=15.464) Tj
+0 -14 Td
+(Decision: VDA distance=20.631 \(threshold=2.822, alarm=True\); PAA area ratio=88.851) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 88 at 2026-01-01T09:17:15: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.787, orp=581.756, ph=7.005, conductivity=543.191) Tj
+0 -14 Td
+(Normalized: turbidity=8.539, orp=10.532, ph=5.802, conductivity=15.129) Tj
+0 -14 Td
+(Decision: VDA distance=19.625 \(threshold=2.822, alarm=True\); PAA area ratio=92.002) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 89 at 2026-01-01T09:17:20: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.711, orp=606.922, ph=7.088, conductivity=537.696) Tj
+0 -14 Td
+(Normalized: turbidity=6.627, orp=6.982, ph=3.905, conductivity=14.511) Tj
+0 -14 Td
+(Decision: VDA distance=16.428 \(threshold=2.822, alarm=True\); PAA area ratio=56.590) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 90 at 2026-01-01T09:17:25: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.712, orp=575.162, ph=7.003, conductivity=532.941) Tj
+0 -14 Td
+(Normalized: turbidity=6.652, orp=11.462, ph=5.848, conductivity=13.976) Tj
+0 -14 Td
+(Decision: VDA distance=18.638 \(threshold=2.822, alarm=True\); PAA area ratio=79.494) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 91 at 2026-01-01T09:17:30: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.774, orp=592.217, ph=7.078, conductivity=581.974) Tj
+0 -14 Td
+(Normalized: turbidity=8.212, orp=9.056, ph=4.134, conductivity=19.490) Tj
+0 -14 Td
+(Decision: VDA distance=21.991 \(threshold=2.822, alarm=True\); PAA area ratio=88.106) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 92 at 2026-01-01T09:17:35: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.694, orp=585.181, ph=7.190, conductivity=502.659) Tj
+0 -14 Td
+(Normalized: turbidity=6.199, orp=10.049, ph=1.574, conductivity=10.571) Tj
+ET
+endstream
+endobj
+12 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 13 0 R >>
+endobj
+13 0 obj
+<< /Length 1332 >>
+stream
+BT
+/F1 10 Tf
+48 746 Td
+(Decision: VDA distance=14.518 \(threshold=2.822, alarm=True\); PAA area ratio=40.070) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 93 at 2026-01-01T09:17:40: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.708, orp=587.374, ph=7.058, conductivity=548.157) Tj
+0 -14 Td
+(Normalized: turbidity=6.551, orp=9.739, ph=4.591, conductivity=15.687) Tj
+0 -14 Td
+(Decision: VDA distance=18.688 \(threshold=2.822, alarm=True\); PAA area ratio=70.827) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 94 at 2026-01-01T09:17:45: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.731, orp=590.126, ph=7.053, conductivity=555.427) Tj
+0 -14 Td
+(Normalized: turbidity=7.130, orp=9.351, ph=4.705, conductivity=16.505) Tj
+0 -14 Td
+(Decision: VDA distance=19.372 \(threshold=2.822, alarm=True\); PAA area ratio=76.502) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+0 -14 Td
+() Tj
+0 -14 Td
+(Row 95 at 2026-01-01T09:17:50: ALERT \(VDA+PAA\)) Tj
+0 -14 Td
+(Values: turbidity=0.599, orp=572.609, ph=7.050, conductivity=519.363) Tj
+0 -14 Td
+(Normalized: turbidity=3.809, orp=11.822, ph=4.774, conductivity=12.449) Tj
+0 -14 Td
+(Decision: VDA distance=16.809 \(threshold=2.822, alarm=True\); PAA area ratio=52.077) Tj
+0 -14 Td
+(\(threshold=1.000, alarm=True\)) Tj
+ET
+endstream
+endobj
+xref
+0 14
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000141 00000 n 
+0000000211 00000 n 
+0000000337 00000 n 
+0000002914 00000 n 
+0000003040 00000 n 
+0000006295 00000 n 
+0000006421 00000 n 
+0000009696 00000 n 
+0000009824 00000 n 
+0000013103 00000 n 
+0000013231 00000 n 
+trailer
+<< /Size 14 /Root 1 0 R >>
+startxref
+14616
+%%EOF
